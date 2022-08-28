@@ -1,0 +1,21 @@
+#countries-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* height: 500px; */
+    margin: 15px;
+    /* border: 2px solid seagreen; */
+
+}
+
+.country {
+    border: 2px solid salmon;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.flags {
+    width: 100%;
+    /* background-color: gray; */
+    border: 1px solid black;
+}
